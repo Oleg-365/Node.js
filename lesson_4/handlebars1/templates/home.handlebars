@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Handlebars example</title>
+</head>
+<body>
+	<h1>Articles list</h1>
+	{{#each articles}}
+		<h2>{{this.title}}</h2>
+		<p>{{this.description}}</p>
+	{{/each}}
+</body>
+</html>
